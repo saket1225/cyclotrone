@@ -1,3 +1,8 @@
+
+*{
+    overflow:hidden;
+}
+
 body{
     background-color: #aff0e4;
     overflow: hidden;
