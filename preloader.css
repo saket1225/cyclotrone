@@ -1,0 +1,55 @@
+.preloaderGif{
+    position: absolute;
+    display: block;
+    width: 50vw;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+.preloaderBackground{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    z-index: -1;
+}
+
+.website{
+    display: none;
+    pointer-events: none;
+}
+
+.website_loaded{
+    display: block;
+    animation: fadeOut 0.5s 1;
+}
+
+.preloaderText{
+    position: absolute;
+    top: 20rem;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    color: #ba5e26;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+
+.loaded{
+    display: none;
+    background-color: #1d1d1d;
+}
+
+
+
+@keyframes fadeOut {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

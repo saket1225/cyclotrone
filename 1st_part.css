@@ -1,0 +1,1071 @@
+body{
+    background: #1d1d1d;
+}
+
+.header{
+    position: fixed;
+    z-index: 1000;
+}
+
+.technoText{
+    color: white;
+    top: 4rem;
+    left: 50vw;
+    font-size: 5rem;
+    position: absolute;
+    transform: translateX(-50%);
+    font-family: poppins;
+    white-space: nowrap;
+    font-weight: 700;
+    z-index: 2
+}
+
+
+
+.bikeImage{
+    position: absolute;
+    width: 80vw;
+    left: 7vw;
+    top: -1.5rem;
+    height: 45rem;
+    z-index: 1;
+}
+
+.topBike{
+    position: absolute;
+    z-index: 3;
+    top: 4rem;
+    left: 20vw;
+    width: 48rem;
+}
+
+.buyNow{
+    position: absolute;
+    width: 15.5vw;
+    height: 3.5rem;
+    background: #952AB6;
+    box-shadow: 0px 0px 57px 2px #A73DC7;
+    border-radius: 5rem;
+    top: 31.5rem;
+    left: 25vw;
+    border:none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #090909;
+    transition:all 0.5s;
+    z-index: 30;
+}
+
+
+.buyNow:hover{
+    cursor: pointer;
+    background-color: rgba(158, 0, 207, 1);
+}
+
+.buyNow:active{
+    background-color: rgba(158, 0, 207, 0.8);
+    box-shadow: 0px 0px 57px 2px rgba(158, 0, 207, 0.8);
+}
+
+
+.learnMore{
+    position: absolute;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #A73DC7;
+    text-shadow: 0px 0px 10px #A73DC7;
+    top: 31.5rem;
+    left: 53vw;
+    background-color: rgba(167, 61, 199, 0.0);
+    width: 20rem;
+    height: 3.5rem;
+    border-radius: 9rem;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 40;
+    overflow: hidden;
+}
+
+.learnMore:hover{
+    background-color: rgba(156, 40, 191,0.2);
+    color: #e07aff;
+    cursor: pointer;
+
+}
+
+.learnMore:active{
+    background-color: rgba(167, 61, 199, 0.5);
+}
+
+
+
+
+@media screen and (max-width: 1230px){
+    .technoText{
+        color: white;
+        top: 4rem;
+        left: 50vw;
+        font-size: 4rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 80vw;
+        left: 7vw;
+        top: -5.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 3.5rem;
+        left: 22vw;
+        width: 41rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 15.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 27.5rem;
+        left: 25vw;
+        border:none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 2rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 27.5rem;
+        left: 53vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 18rem;
+        border-radius: 9rem;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1050px){
+
+    .technoText{
+        color: white;
+        top: 4rem;
+        left: 50vw;
+        font-size: 4rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 80vw;
+        left: 7vw;
+        top: -5.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 3.5rem;
+        left: 17.7vw;
+        width: 41rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 15.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 27.5rem;
+        left: 25vw;
+        border:none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 2rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 27.5rem;
+        left: 53vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 18rem;
+        border-radius: 9rem;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+
+
+@media screen and (max-width: 900px){
+
+    .technoText{
+        color: white;
+        top: 4rem;
+        left: 50vw;
+        font-size: 3.7rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 80vw;
+        left: 7vw;
+        top: -7.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 4rem;
+        left: 16vw;
+        width: 36rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 22.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 26rem;
+        left: 20vw;
+        border:none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 2rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 26.3rem;
+        left: 53vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 18rem;
+        border-radius: 9rem;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+
+
+
+@media screen and (max-width: 730px){
+
+    .technoText{
+        color: white;
+        top: 4rem;
+        left: 50vw;
+        font-size: 3.5rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 80vw;
+        left: 7vw;
+        top: -9.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 4rem;
+        left: 12vw;
+        width: 32rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 25.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 25rem;
+        left: 17vw;
+        border:none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 2rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 25.3rem;
+        left: 53vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 18rem;
+        border-radius: 9rem;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 620px){
+
+    .technoText{
+        color: white;
+        top: 4.9rem;
+        left: 52vw;
+        font-size: 4rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 80vw;
+        left: 7vw;
+        top: -8rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5.5rem;
+        left: 7vw;
+        width: 32rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 25.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 27rem;
+        left: 14vw;
+        border:none;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 2rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 27.3rem;
+        left: 50vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 15rem;
+        border-radius: 9rem;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+
+
+@media screen and (max-width: 540px){
+
+    .technoText{
+        color: white;
+        top: 5.5rem;
+        left: 52vw;
+        font-size: 3rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -7.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 6rem;
+        left: 2vw;
+        width: 32rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 25.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 27.5rem;
+        left: 14vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 27.9rem;
+        left: 50vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 12rem;
+        border-radius: 9rem;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+
+@media screen and (max-width: 520px){
+
+    .technoText{
+        color: white;
+        top: 5.5rem;
+        left: 52vw;
+        font-size: 3.7rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -7.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 6rem;
+        left: 0vw;
+        width: 30rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 25.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 29rem;
+        left: 14vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 29.3rem;
+        left: 50vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 12rem;
+        border-radius: 9rem;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+
+
+
+@media screen and (max-width: 500px){
+
+    .technoText{
+        color: white;
+        top: 5rem;
+        left: 52vw;
+        font-size: 3.5rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -9.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5rem;
+        left: 0vw;
+        width: 30rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 90.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 57px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 25rem;
+        left: 4vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 31.3rem;
+        left: 4vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 90.5vw;
+        height: 3.5rem;
+        border-radius: 9rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        transition: all 0.5s;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+
+    .technoText{
+        color: white;
+        top: 5rem;
+        left: 52vw;
+        font-size: 3.2rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -10.5rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5.2rem;
+        left: 1vw;
+        width: 28rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 90.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 40px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 24.5rem;
+        left: 4vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 30.3rem;
+        left: 4vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 90.5vw;
+        height: 3.5rem;
+        border-radius: 9rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        transition: all 0.5s;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+
+    .technoText{
+        color: white;
+        top: 5rem;
+        left: 52vw;
+        font-size: 3.2rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -12rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5.2rem;
+        left: 2vw;
+        width: 25rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 90.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 40px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 24.5rem;
+        left: 4vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 30.3rem;
+        left: 4vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 90.5vw;
+        height: 3.5rem;
+        border-radius: 9rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        transition: all 0.5s;
+    }
+}
+
+
+
+
+@media screen and (max-width: 410px){
+
+    .technoText{
+        color: white;
+        top: 5rem;
+        left: 52vw;
+        font-size: 3.2rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -12rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5.4rem;
+        left: -2vw;
+        width: 25rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 90.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 40px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 23rem;
+        left: 4vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 28.8rem;
+        left: 4vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 90.5vw;
+        height: 3.5rem;
+        border-radius: 9rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        transition: all 0.5s;
+    }
+}
+
+
+
+@media screen and (max-width: 400px){
+
+    .technoText{
+        color: white;
+        top: 5rem;
+        left: 52vw;
+        font-size: 3rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -13rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5.6rem;
+        left: 0vw;
+        width: 22rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 90.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 40px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 23.5rem;
+        left: 4vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 30rem;
+        left: 4vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 90.5vw;
+        height: 3.5rem;
+        border-radius: 9rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        transition: all 0.5s;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 370px){
+
+    .technoText{
+        color: white;
+        top: 5rem;
+        left: 52vw;
+        font-size: 2.7rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -13rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5.4rem;
+        left: -2vw;
+        width: 22rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 90.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 40px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 23.5rem;
+        left: 4vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 30rem;
+        left: 4vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 90.5vw;
+        height: 3.5rem;
+        border-radius: 9rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        transition: all 0.5s;
+    }
+}
+
+
+
+@media screen and (max-width: 350px){
+
+    .technoText{
+        color: white;
+        top: 5rem;
+        left: 52vw;
+        font-size: 2.2rem;
+        position: absolute;
+        transform: translateX(-50%);
+        font-family: poppins;
+        white-space: nowrap;
+        font-weight: 700;
+        z-index: 2;
+    }
+
+    .bikeImage{
+        position: absolute;
+        width: 90vw;
+        left: 5vw;
+        top: -15rem;
+        height: 45rem;
+        z-index: 0;
+    }
+
+    .topBike{
+        position: absolute;
+        z-index: 3;
+        top: 5rem;
+        left: 1vw;
+        width: 20rem;
+    }
+
+    .buyNow{
+        position: absolute;
+        width: 90.5vw;
+        height: 3.5rem;
+        background: #952AB6;
+        box-shadow: 0px 0px 40px 2px #A73DC7;
+        border-radius: 5rem;
+        top: 23.5rem;
+        left: 4vw;
+        border:none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #090909;
+        transition:all 0.5s;
+    }
+
+
+    .learnMore{
+        position: absolute;
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 1.8rem;
+        color: #A73DC7;
+        text-shadow: 0px 0px 10px #A73DC7;
+        top: 30rem;
+        left: 4vw;
+        background-color: rgba(167, 61, 199, 0.0);
+        width: 90.5vw;
+        height: 3.5rem;
+        border-radius: 9rem;
+        text-align: center;
+        padding-top: 0.5rem;
+        transition: all 0.5s;
+    }
+}
+
+

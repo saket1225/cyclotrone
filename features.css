@@ -1,0 +1,668 @@
+.thumbnail_of_webseries{
+    position: absolute;
+    top: 98rem;
+    left: 25vw;
+    width: 23rem;
+    height: 16rem;
+    transform: translateX(-50%);
+    object-fit: cover;
+    transition-duration: 0.2s;
+}
+
+.play_icon{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 115.5rem;
+    left: 15vw;
+}
+
+.watch{
+    font-family: poppins;
+    font-weight: 600;
+    position: absolute;
+    font-size: 1rem;
+    color: #dedede;
+    top: 115.8rem;
+    left: 18.5vw;
+}
+
+.headphone_icon{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 115.5rem;
+    left: 69vw;
+}
+
+.listen{
+    font-family: poppins;
+    font-weight: 600;
+    position: absolute;
+    font-size: 1.2rem;
+    color: #ada3ec;
+    top: 115.8rem;
+    left: 73vw;
+}
+
+
+.footer{
+    position: absolute;
+    top: 130rem;
+    background: #2D2D2D;
+    width: 100vw;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.footerLogo{
+    position: absolute;
+    display: flex;
+    width: 2rem;
+    height: 2rem;
+    left: 50vw;
+    transform: translateX(-50%);
+    top: 0.4rem;
+    transition:all 0.2s;
+}
+
+.copyright{
+    color: #c9c9c9;
+    position: absolute;
+    left: 49.8vw;
+    top: 2.5rem;
+    font-family: poppins;
+    transform: translateX(-50% );
+    font-size: 0.7rem;
+    transition:all 0.2s;
+}
+
+.footerLogin{
+    color: #c9c9c9;
+    position: absolute;
+    left: 35vw;
+    top: 1.2rem;
+    font-family: poppins;
+    transform: translateX(-50% );
+    font-size: 1rem;
+    transition:all 0.2s;
+}
+
+.footerSignUp{
+    color: #c9c9c9;
+    position: absolute;
+    left: 15vw;
+    top: 1.2rem;
+    font-family: poppins;
+    transform: translateX(-50% );
+    font-size: 1rem;
+    transition:all 0.2s;
+}
+
+.footerContactUs{
+    color: #c9c9c9;
+    position: absolute;
+    left: 85vw;
+    top: 1.2rem;
+    font-family: poppins;
+    transform: translateX(-50% );
+    font-size: 1rem;
+    transition:all 0.2s;
+}
+
+
+.footerErorPage{
+    color: #c9c9c9;
+    position: absolute;
+    left: 64vw;
+    top: 1.2rem;
+    font-family: poppins;
+    transform: translateX(-50% );
+    font-size: 1rem;
+    transition:all 0.2s;
+}
+
+
+.albumnCover{
+    position: absolute;
+    top: 98rem;
+    left: 75vw;
+    width: 23rem;
+    height: 16rem;
+    transform: translateX(-50%);
+    object-fit: cover;
+    transition:all 0.2s;
+}
+
+
+
+.albumnCover:hover{
+    filter: brightness(30%);
+    cursor: pointer;
+}
+
+.albumnCover:active{
+    filter: brightness(100%);
+}
+
+
+
+
+.thumbnail_of_webseries:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+.thumbnail_of_webseries:active{
+    filter: brightness(100%);
+}
+
+
+
+.footerLogo:hover{
+    filter: brightness(10000%);
+    cursor: pointer;
+}
+
+.footerLogin:hover{
+    filter: brightness(10000%);
+    cursor: pointer;
+}
+
+.footerSignUp:hover{
+    filter: brightness(10000%);
+    cursor: pointer;
+}
+
+.footerContactUs:hover{
+    filter: brightness(10000%);
+    cursor: pointer;
+}
+
+.footerErorPage:hover{
+    filter: brightness(10000%);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1020px){
+
+    .thumbnail_of_webseries{
+        width:20rem;
+        height: 14rem;
+        top: 99rem;
+        left: 25vw;
+    }
+
+    .play_icon{
+        top: 115.5rem;
+        left: 13vw;
+    }
+
+    .watch{
+        font-size: 1rem;
+        top: 115.8rem;
+        left: 18.5vw;
+    }
+
+    .headphone_icon{
+        top: 115.5rem;
+        left: 68vw;
+    }
+
+    .listen{
+        font-size: 1.2rem;
+        top: 115.8rem;
+        left: 73vw;
+    }
+
+    .albumnCover{
+        width:20rem;
+        height: 14rem;
+        top: 99rem;
+        left: 75vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 1020px){
+
+    .thumbnail_of_webseries{
+        width:20rem;
+        height: 14rem;
+        top: 99rem;
+        left: 25vw;
+    }
+
+    .play_icon{
+        top: 115.5rem;
+        left: 13vw;
+    }
+
+    .watch{
+        font-size: 1rem;
+        top: 115.8rem;
+        left: 18.5vw;
+    }
+
+    .headphone_icon{
+        top: 115.5rem;
+        left: 68vw;
+    }
+
+    .listen{
+        font-size: 1.2rem;
+        top: 115.8rem;
+        left: 73vw;
+    }
+
+    .albumnCover{
+        width:20rem;
+        height: 14rem;
+        top: 99rem;
+        left: 75vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 750px){
+
+    .thumbnail_of_webseries{
+        width: 61vw;
+        height: 21rem;
+        top: 90rem;
+        left: 50vw;
+    }
+
+    .play_icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 113.5rem;
+        left: 30vw;
+    }
+
+    .watch{
+        font-size: 1.1rem;
+        top: 114rem;
+        left: 40vw;
+    }
+
+    .headphone_icon{
+        top: 148.9rem;
+        left: 38vw;
+    }
+
+    .listen{
+        font-size: 1.3rem;
+        top: 149rem;
+        left: 47vw;
+    }
+
+    .albumnCover{
+        width: 61vw;
+        height: 21rem;
+        top: 125rem;
+        left: 50vw;
+    }
+
+    .footer{
+        top: 160rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 620px){
+
+
+    .footerLogo{
+        top: 0.6rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .footerLogin{
+        font-size: 0.8rem;
+    }
+
+    .footerSignUp{
+        font-size: 0.8rem;
+    }
+
+    .footerContactUs{
+        font-size: 0.8rem;
+    }
+
+    .footerErorPage{
+        font-size: 0.8rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .footer{
+        top: 160rem;
+    }
+
+
+    .thumbnail_of_webseries{
+        width: 81vw;
+        height: 21rem;
+        top: 90rem;
+        left: 50vw;
+    }
+
+    .play_icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 113.5rem;
+        left: 30vw;
+    }
+
+    .watch{
+        font-size: 1.1rem;
+        top: 114rem;
+        left: 40vw;
+    }
+
+    .headphone_icon{
+        top: 148.9rem;
+        left: 38vw;
+    }
+
+    .listen{
+        font-size: 1.3rem;
+        top: 149rem;
+        left: 47vw;
+    }
+
+    .albumnCover{
+        width: 81vw;
+        height: 21rem;
+        top: 125rem;
+        left: 50vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 520px){
+
+    .thumbnail_of_webseries{
+        width: 81vw;
+        height: 21rem;
+        top: 90rem;
+        left: 50vw;
+    }
+
+    .play_icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 113.5rem;
+        left: 20vw;
+    }
+
+    .watch{
+        font-size: 1.1rem;
+        top: 114rem;
+        left: 33vw;
+    }
+
+    .headphone_icon{
+        top: 148.9rem;
+        left: 30vw;
+    }
+
+    .listen{
+        font-size: 1.3rem;
+        top: 149rem;
+        left: 45vw;
+    }
+
+    .albumnCover{
+        width: 81vw;
+        height: 21rem;
+        top: 125rem;
+        left: 50vw;
+    }
+
+
+
+    .footerLogo{
+        top: 0.6rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .footerLogin{
+        font-size: 0.6rem;
+    }
+
+    .footerSignUp{
+        font-size: 0.6rem;
+    }
+
+    .footerContactUs{
+        font-size: 0.6rem;
+    }
+
+    .footerErorPage{
+        font-size: 0.6rem;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 420px){
+
+    .footer{
+        top: 140rem;
+    }
+
+    .thumbnail_of_webseries{
+        width: 75vw;
+        height: 15rem;
+        top: 80rem;
+        left: 50vw;
+    }
+
+    .play_icon{
+        width: 2rem;
+        height: 2rem;
+        top: 97.5rem;
+        left: 11vw;
+    }
+
+    .watch{
+        font-size: 1.1rem;
+        top: 97.8rem;
+        left: 25vw;
+    }
+
+    .headphone_icon{
+        top: 126.9rem;
+        left: 30vw;
+    }
+
+    .listen{
+        font-size: 1.3rem;
+        top: 126rem;
+        left: 45vw;
+    }
+
+    .albumnCover{
+        width: 75vw;
+        height: 15rem;
+        top: 110rem;
+        left: 50vw;
+    }
+
+
+    .footer{
+        height: 4rem;
+    }
+
+    .footerLogo{
+        top: 0.6rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .footerLogin{
+        font-size: 0.6rem;
+    }
+
+    .footerSignUp{
+        font-size: 0.6rem;
+    }
+
+    .footerContactUs{
+        font-size: 0.5rem;
+        left: 85vw;
+    }
+
+    .footerErorPage{
+        font-size: 0.6rem;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 350px){
+
+    .thumbnail_of_webseries{
+        width: 75vw;
+        height: 15rem;
+        top: 80rem;
+        left: 50vw;
+    }
+
+    .play_icon{
+        width: 1.5rem;
+        height: 1.5rem;
+        top: 97.8rem;
+        left: 16vw;
+    }
+
+    .watch{
+        font-size: 1rem;
+        top: 97.8rem;
+        left: 25vw;
+    }
+
+    .headphone_icon{
+        top: 121.9rem;
+        left: 26vw;
+    }
+
+    .listen{
+        font-size: 1.3rem;
+        top: 122rem;
+        left: 42vw;
+    }
+
+    .albumnCover{
+        width: 75vw;
+        height: 15rem;
+        top: 105rem;
+        left: 50vw;
+    }
+
+
+    .footer{
+        height: 4rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .footer{
+        height: 4rem;
+    }
+
+    .footerLogo{
+        top: 0.6rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .footerLogin{
+        font-size: 0.6rem;
+    }
+
+    .footerSignUp{
+        font-size: 0.6rem;
+    }
+
+    .footerContactUs{
+        font-size: 0.5rem;
+        left: 85vw;
+    }
+
+    .footerErorPage{
+        font-size: 0.6rem;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 375px){
+
+
+
+
+    .listen{
+        font-family: poppins;
+        font-weight: 600;
+        position: absolute;
+        font-size: 1.2rem;
+        color: #ada3ec;
+        top: 126.8rem;
+        left: 45vw;
+    }
+
+    .headphone_icon{
+        top: 126.5rem;
+        left: 30vw;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 414px){
+
+    .listen{
+        font-family: poppins;
+        font-weight: 600;
+        position: absolute;
+        font-size: 1.2rem;
+        color: #ada3ec;
+        top: 126.8rem;
+        left: 45vw;
+    }
+
+    .headphone_icon{
+        top: 126.8rem;
+        left: 30vw;
+    }
+
+
+}

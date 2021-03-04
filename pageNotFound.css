@@ -1,0 +1,99 @@
+body{
+    background-color: #aff0e4;
+    overflow: hidden;
+}
+
+.gif{
+    position: absolute;
+    left: 50vw;
+    top: 2rem;
+    transform: translateX(-50%);
+}
+
+.text_pnf{
+    position: absolute;
+    font-family: poppins;
+    font-size: 3rem;
+    top: 15rem;
+    left: 50vw;
+    font-weight: 900;
+    color: #2a7f6c;
+    transform: translateX(-50%);
+    white-space: pre;
+}
+
+.back{
+    position: absolute;
+    width: 90vw;
+    left: 50vw;
+    top: 27rem;
+    transform: translateX(-50%);
+    height: 5rem;
+    font-size: 1.7rem;
+    color: #8b30d1;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid #8b30d1;
+    transition: 0.4s;
+}
+
+.back:hover{
+    background-color: rgba(36, 150, 124, 0.3);
+    cursor: pointer;
+}
+
+.back:active{
+    background-color: rgba(36, 150, 124, 0.5);
+}
+
+
+@media only screen and (max-width: 902px){
+    .text_pnf{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 612px){
+    .text_pnf{
+        font-size: 1.6rem;
+    }
+}
+
+
+@media only screen and (max-width: 486px){
+    .text_pnf{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 424px){
+    .gif{
+        position: absolute;
+        left: 50vw;
+        top: 2rem;
+        transform: translateX(-50%);
+        width: 95vw;
+}
+
+
+    .text_pnf{
+        font-size: 10vw;
+        top: 13rem;
+    }
+
+    .back{
+        width: 85vw;
+        top: 23rem;
+        transform: translateX(-50%);
+        height: 5rem;
+        font-size: 1.2rem;
+        color: #8b30d1;
+        font-weight: 700;
+        background-color: transparent;
+        border: 2px solid #8b30d1;
+        transition: 0.4s;
+    }
+
+
+}

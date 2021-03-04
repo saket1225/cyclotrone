@@ -1,0 +1,1134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.signIn{
+    position: absolute;
+    font-size: 2rem;
+    color: #dedede;
+    font-family: poppins;
+    font-weight: 550;
+    font-size: 2.5rem;
+    letter-spacing: 0.02rem;
+    left: 50vw;
+    top: 1rem;
+    transform: translateX(-50%);
+}
+
+.cross{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: 3rem;
+    top: 2.2rem;
+    transition: all 0.5s
+}
+
+.cross:hover{
+    filter: brightness(1000%);
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.nextBackground{
+    position: absolute;
+    width: 6.9rem;
+    border: hidden;
+    height: 2rem;
+    background-color: #E231FF;
+    opacity: 0.2;
+    border-radius: 1rem;
+    left: 87vw;
+    top: 2.2rem;
+    transition: all 0.5s;
+}
+
+.next_text{
+    position: absolute;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #dedede;
+    top: 2.3rem;
+    left: 88.5vw;
+    pointer-events: none;
+}
+
+.nextBackground:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.arrow{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    left: 93vw;
+    top: 2.6rem;
+    pointer-events: none;
+}
+
+.emailAddress{
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: poppins;
+    color: #d9d9d9;
+    left: 36vw;
+    top: 7.2rem;
+    letter-spacing: -0.01rem;
+}
+
+.background{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.emailTaker{
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    background: transparent;
+    border:3px solid #BABABA;
+    color: white;
+    left: 36vw;
+    top: 9.5rem;
+    padding-left: 1rem;
+    border-radius: 0.6rem;
+    font-size: 1.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    font-kerning:normal;
+    transition: 0.2s;
+}
+
+.emailTaker:focus{
+    border-color: #77a4ed;
+    opacity: 0.8
+}
+
+
+.password{
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: poppins;
+    color: #d9d9d9;
+    left: 36vw;
+    top: 14rem;
+    letter-spacing: -0.01rem;
+    transition: 0.5s;
+}
+
+
+.passwordTaker{
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    background: transparent;
+    border:3px solid #BABABA;
+    color: white;
+    left: 36vw;
+    top: 16rem;
+    padding-left: 1rem;
+    border-radius: 0.6rem;
+    font-size: 1.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.passwordTaker:focus{
+    border-color: #77a4ed;
+    opacity: 0.8
+}
+
+
+/*placeholder*/
+
+::placeholder {
+  color: #4D4D4D;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #4D4D4D;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #4D4D4D;
+}
+
+
+.lock_base{
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #dedede;
+    border-radius: 0.2rem;
+    top: 17.4rem;
+    left: 58.1vw;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+
+.lock_top_part{
+    position: absolute;
+    top: 17rem;
+    left: 57.7vw;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+
+.lock_background{
+    width: 2.8rem;
+    height: 2rem;
+    position: absolute;
+    top: 16.5rem;
+    left: 57vw;
+    cursor: pointer;
+}
+
+.lockIsOpen{
+    left: 57.1vw;
+    top: 17rem;
+    transform: rotate(360deg);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.lock_background:hover ~ .lock_base{
+    filter: brightness(10000%);
+}
+
+.lock_background:hover ~ .lock_top_part{
+    filter: brightness(10000%);
+}
+
+.forgot{
+    position: absolute;
+    top: 20rem;
+    left: 36.3vw;
+    font-size: 0.9rem;
+    font-family: poppins;
+    color: #317FAB;
+    transition: all 0.5s;
+}
+
+.forgot:hover{
+    color: #29aeff;
+    cursor: pointer;
+}
+
+.or_text{
+    position: absolute;
+    font-family: poppins;
+    font-size: 1.7rem;
+    color: #f8f8f8;
+    top: 22.5rem;
+    transform: translateX(-50%);
+    left: 49vw;
+}
+
+.google{
+    position: absolute;
+    z-index: 1000;
+    top: 26rem;
+    width: 15rem;
+    left: 49vw;
+    transform: translateX(-50%);
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition-duration: 0.2s;
+}
+
+.google:hover{
+    cursor: pointer;
+}
+
+.google:active{
+    width: 14.5rem;
+}
+
+.signUpBackground{
+    display: block;
+    position: absolute;
+    left: 49vw;
+    top: 30rem;
+    transform: translateX(-50%);
+    width: 15rem;
+    /*max-width: 15rem;*/
+    height: 2.5rem;
+    background-color: #DB00FF;
+    opacity: 0.1;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.signUpText{
+    position: absolute;
+    z-index: 2;
+    position: absolute;
+    left: 49vw;
+    font-family: poppins;
+    top: 30rem;
+    font-size: 1.3rem;
+    transform:translateX(-50%);
+    color: white;
+    font-weight: 450;
+    opacity: 0.9;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+
+
+.signUpBackground:hover{
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.signUpBackground:active{
+    width: 14.5rem;
+}
+
+
+@media only screen and (max-width: 1250px){
+
+    .lock_base{
+        left: 60.1vw;
+    }
+
+    .lock_top_part{
+        left: 59.7vw;
+    }
+
+    .lock_background{
+        left: 59vw;
+        }
+
+    .lockIsOpen{
+        left: 59.1vw;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 1150px){
+
+
+    .lock_base{
+        left: 63.1vw;
+    }
+
+    .lock_top_part{
+        left: 62.7vw;
+    }
+
+    .lock_background{
+        left: 62vw;
+        }
+
+    .lockIsOpen{
+        left: 62.1vw;
+    }
+
+    .arrow{
+        left: 94.5vw;
+    }
+
+    .next_text{
+        left: 88.8vw;
+    }
+
+}
+
+
+@media only screen and (max-width: 1060px){
+
+
+    .lock_base{
+        left: 65.1vw;
+    }
+
+    .lock_top_part{
+        left: 64.7vw;
+    }
+
+    .lock_background{
+        left: 64vw;
+        }
+
+    .lockIsOpen{
+        left: 64.1vw;
+    }
+
+    .arrow{
+        left: 91.5vw;
+    }
+
+    .next_text{
+        left: 85.8vw;
+    }
+
+    .nextBackground{
+        left: 84.5vw;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1060px){
+
+    .google{
+        left:52vw;
+    }
+
+
+    .signUpBackground{
+        left: 52vw;
+    }
+
+    .signUpText{
+        left: 52vw;
+    }
+
+    .or_text{
+        left: 52vw;
+    }
+
+    .signIn{
+        font-size: 2.1rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 930px){
+
+    .lock_base{
+        left: 69.1vw;
+    }
+
+    .lock_top_part{
+        left: 68.6vw;
+    }
+
+    .lock_background{
+        left: 69vw;
+        }
+
+    .lockIsOpen{
+        left: 67.6vw;
+    }
+
+    .arrow{
+        left: 93.5vw;
+    }
+
+    .next_text{
+        left: 87.5vw;
+    }
+
+    .nextBackground{
+        left: 84.5vw;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 850px){
+
+    .lock_base{
+        left: 72.1vw;
+    }
+
+    .lock_top_part{
+        left: 71.5vw;
+    }
+
+    .lock_background{
+        left: 72vw;
+        }
+
+    .lockIsOpen{
+        left: 70.6vw;
+    }
+
+    .arrow{
+        left: 94.5vw;
+        width: 0.9rem;
+        height: 0.9rem;
+        top: 2.8rem;
+    }
+
+    .next_text{
+        left: 87.5vw;
+    }
+
+    .nextBackground{
+        left: 84.5vw;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+    .google{
+        left:55vw;
+    }
+
+
+    .signUpBackground{
+        left: 55vw;
+    }
+
+    .signUpText{
+        left: 55vw;
+    }
+
+    .or_text{
+        left: 55vw;
+    }
+
+    .signIn{
+        font-size: 1.7rem;
+        left: 52vw;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 850px){
+
+    .lock_base{
+        left: 75.1vw;
+    }
+
+    .lock_top_part{
+        left: 74.4vw;
+    }
+
+    .lock_background{
+        left: 74vw;
+        }
+
+    .lockIsOpen{
+        left: 73.6vw;
+    }
+
+    .arrow{
+        left: 92.5vw;
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    .next_text{
+        left: 85.5vw;
+    }
+
+    .nextBackground{
+        left: 82.5vw;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+    .google{
+        left:57vw;
+        width: 13rem;
+        height: 4rem;
+    }
+
+
+    .signUpBackground{
+        left: 57vw;
+        width: 13rem;
+    }
+
+    .signUpText{
+        left: 57vw;
+    }
+
+    .or_text{
+        left: 57vw;
+    }
+
+    .signIn{
+        font-size: 1.7rem;
+        left: 52vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 850px){
+
+    .lock_base{
+        width: 0.6rem;
+        height: 0.6rem;
+        left: 67.1vw;
+    }
+
+    .lock_top_part{
+        width: 1.2rem;
+        height: 1.2rem;
+        left: 66.5vw;
+    }
+
+    .lock_background{
+        left: 67vw;
+        }
+
+    .lockIsOpen{
+        left: 65.6vw;
+    }
+
+    .arrow{
+        left: 89.8vw;
+        width: 0.7rem;
+        height: 0.7rem;
+    }
+
+    .next_text{
+        left: 84.5vw;
+        font-size: 1rem;
+    }
+
+    .nextBackground{
+        left: 82.5vw;
+        width: 5rem;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+    .google{
+        left:51vw;
+        width: 13rem;
+        height: 3rem;
+    }
+
+
+    .signUpBackground{
+        left: 51vw;
+        width: 13rem;
+        height: 2rem;
+    }
+
+    .signUpText{
+        left: 51vw;
+        font-size: 1rem;
+    }
+
+    .or_text{
+        left: 51vw;
+        font-size: 1.5rem;
+    }
+
+    .signIn{
+        font-size: 1.7rem;
+        left: 52vw;
+    }
+
+
+    .emailAddress{
+        font-size: 1rem;
+        font-family: poppins;
+        color: #d9d9d9;
+        left: 30vw;
+    }
+
+
+    .emailTaker{
+        position: absolute;
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        left: 30vw;
+    }
+
+    .password{
+        font-size: 1rem;
+        left: 30vw;
+    }
+
+
+    .passwordTaker{
+        left: 30vw;
+        font-size: 1rem;
+    }
+
+    .forgot{
+        left: 31.3vw;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 740px){
+    .lock_base{
+        left: 71.6vw;
+    }
+
+    .lock_top_part{
+        left: 70.9vw;
+    }
+
+    .lock_background{
+        left: 71vw;
+        }
+
+    .lockIsOpen{
+        left: 69.9vw;
+    }
+
+    .arrow{
+        left: 90.5vw;
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+
+    .next_text{
+        left: 83.9vw;
+    }
+
+    .nextBackground{
+        left: 82.5vw;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+    .google{
+        left:57vw;
+        width: 13rem;
+        height: 4rem;
+    }
+
+
+    .signUpBackground{
+        left: 57vw;
+        width: 13rem;
+    }
+
+    .signUpText{
+        left: 57vw;
+    }
+
+    .or_text{
+        left: 57vw;
+    }
+
+    .signIn{
+        font-size: 1.7rem;
+        left: 52vw;
+    }
+}
+
+
+@media only screen and (max-width: 650px){
+    .lock_base{
+        left: 76.6vw;
+    }
+
+    .lock_top_part{
+        left: 75.8vw;
+    }
+
+    .lock_background{
+        left: 76vw;
+        }
+
+    .lockIsOpen{
+        left: 74.9vw;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .next_text{
+        left: 86vw;
+    }
+
+    .nextBackground{
+        left: 82.5vw;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+    .google{
+        left:57vw;
+        width: 13rem;
+        height: 4rem;
+    }
+
+
+    .signUpBackground{
+        left: 57vw;
+        width: 13rem;
+    }
+
+    .signUpText{
+        left: 57vw;
+    }
+
+    .or_text{
+        left: 57vw;
+    }
+
+    .signIn{
+        font-size: 1.7rem;
+        left: 52vw;
+    }
+}
+
+
+@media only screen and (max-width: 570px){
+    .lock_base{
+        left: 83.6vw;
+    }
+
+    .lock_top_part{
+        left: 82.8vw;
+    }
+
+    .lock_background{
+        left: 83vw;
+        }
+
+    .lockIsOpen{
+        left: 81.9vw;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .next_text{
+        left: 86vw;
+    }
+
+    .nextBackground{
+        left: 82.5vw;
+    }
+
+    .cross{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+    .google{
+        left:57vw;
+        width: 13rem;
+        height: 4rem;
+    }
+
+
+    .signUpBackground{
+        left: 57vw;
+        width: 13rem;
+    }
+
+    .signUpText{
+        left: 57vw;
+    }
+
+    .or_text{
+        left: 57vw;
+    }
+
+    .signIn{
+        font-size: 1.7rem;
+        left: 52vw;
+    }
+}
+
+@media only screen and (max-width: 570px){
+
+    .lock_base{
+        width: 0.6rem;
+        height: 0.6rem;
+        left: 80.1vw;
+    }
+
+    .lock_top_part{
+        width: 1.2rem;
+        height: 1.2rem;
+        left: 79.1vw;
+    }
+
+    .lock_background{
+        left: 78.7vw;
+        }
+
+    .lockIsOpen{
+        left: 78.6vw;
+    }
+
+
+    .next_text{
+        left: 85vw;
+        font-size: 0.9rem;
+    }
+
+    .nextBackground{
+        left: 82.5vw;
+        width: 4rem;
+    }
+
+    .cross{
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+
+    .google{
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50vw;
+        width: 14rem;
+        height: 3rem;
+    }
+
+
+    .signUpBackground{
+        left: 50vw;
+        width: 14rem;
+        height: 2rem;
+    }
+
+    .signUpText{
+        left: 50vw;
+        font-size: 1.2rem;
+    }
+
+    .or_text{
+        left: 50vw;
+        font-size: 1.5rem;
+    }
+
+    .signIn{
+        font-size: 1.7rem;
+        left: 52vw;
+    }
+
+
+    .emailAddress{
+        font-size: 1.1rem;
+        font-family: poppins;
+        color: #d9d9d9;
+        left: 8vw;
+    }
+
+
+    .emailTaker{
+        position: absolute;
+        width: 25rem;
+        height: 3rem;
+        font-size: 1rem;
+        left: 8vw;
+    }
+
+    .password{
+        font-size: 1rem;
+        left: 8vw;
+    }
+
+
+    .passwordTaker{
+        width: 25rem;
+        height: 3rem;
+        left: 8vw;
+        font-size: 1rem;
+    }
+
+    .forgot{
+        left: 9vw;
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 510px){
+
+    .lock_base{
+        width: 0.6rem;
+        height: 0.6rem;
+        left: 85.1vw;
+    }
+
+    .lock_top_part{
+        width: 1.2rem;
+        height: 1.2rem;
+        left: 84.1vw;
+    }
+
+    .lock_background{
+        left: 82.7vw;
+        }
+
+    .lockIsOpen{
+        left: 82.6vw;
+    }
+
+}
+
+@media only screen and (max-width: 460px){
+
+    .lock_base{
+        width: 0.6rem;
+        height: 0.6rem;
+        left: 87.1vw;
+    }
+
+    .lock_top_part{
+        width: 1.2rem;
+        height: 1.2rem;
+        left: 86.1vw;
+    }
+
+    .lock_background{
+        left: 86.7vw;
+        }
+
+    .lockIsOpen{
+        left: 84.6vw;
+    }
+
+
+    .emailTaker{
+        position: absolute;
+        width: 85vw;
+        height: 3rem;
+        font-size: 1rem;
+        left: 8vw;
+    }
+
+    .passwordTaker{
+        width: 85vw;
+        height: 3rem;
+        left: 8vw;
+        font-size: 1rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 353px){
+    .lock_base{
+        width: 0.6rem;
+        height: 0.6rem;
+        left: 85.1vw;
+    }
+
+    .lock_top_part{
+        width: 1.2rem;
+        height: 1.2rem;
+        left: 83.8vw;
+    }
+
+    .lock_background{
+        left: 83.7vw;
+        }
+
+    .lockIsOpen{
+        left: 82.3vw;
+    }
+
+
+    .next_text{
+        left: 81.5vw;
+        font-size: 1rem;
+    }
+
+    .nextBackground{
+        left: 77.5vw;
+        width: 4rem;
+    }
+
+    .cross{
+        left:1rem;
+    }
+
+    .signIn{
+        font-size: 1.5rem;
+        left: 48vw;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    .next_text{
+        top: 1.8rem;
+        left: 81.5vw;
+        font-size: 0.8rem;
+    }
+
+    .nextBackground{
+        top: 1.5rem;
+        left: 77.5vw;
+        width: 3.5rem;
+    }
+
+    .cross{
+        width: 1rem;
+        height: 1rem;
+    }
+}
